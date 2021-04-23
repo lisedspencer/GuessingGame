@@ -1,7 +1,9 @@
+package GuessingGameSystem;
+
 import java.util.Random;
 import java.util.Scanner;
 
-public class GuessingGame {
+public class GuessingGameAlpha {
     public static void main (String[] args) {
         /* --- Guessing Game Alpha ---
             A guessing game which:
@@ -30,7 +32,7 @@ public class GuessingGame {
         // Get user stat inputs name and DOB, split DOB
         Scanner scan = new Scanner(System.in);
         System.out.println("Please enter your full name (First MI Last): ");
-        String fullName = scan.nextLine();
+        String fullName = scan.nextLine().trim();
 
         System.out.println("Great! Please enter your date of birth (MM/DD/YYYY): ");
         String dateOfBirth = scan.nextLine();
