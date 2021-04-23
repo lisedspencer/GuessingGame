@@ -12,11 +12,11 @@ public class Player {
     //Player class: holds player data
     /*
         Methods:
-            printTopScores - prints top 5 scores
-            correctGuess - checks player guess & decrements score
-            setBirthday - records player birthday if not already in file
-            setRandomNumber - generates a random target number
             getGuess - prompts player for a guess
+            correctGuess - checks player guess & decrements score
+            setRandomNumber - generates a random target number
+            setScoreboard - sets scoreboard from CSV
+            setScore - adds score to CSV
      */
 
     //Class Variables

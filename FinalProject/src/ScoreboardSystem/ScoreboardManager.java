@@ -13,9 +13,10 @@ import static java.util.Collections.reverseOrder;
 public class ScoreboardManager {
     /* Sorts and saves high scores to scoreboard.csv
         Methods:
-            recordScore - adds a new score to the scoreboard
-            sortScores - sorts current scoreboard
+            sortScores - sorts read scoreboard
             printHighScores - prints top 5 scores
+            setNewScore - adds a new score to the scoreboard
+            setSortedScoreboard - writes new scoreboard to csv
      */
 
     //Class Variables
